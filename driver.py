@@ -25,7 +25,7 @@ def download_chromedriver(destination: str = "./bin/chromedriver"):
     """
     if not os.path.exists(destination):
         response = requests.get(
-            "https://chromedriver.storage.googleapis.com/94.0.4606.61/"
+            "https://chromedriver.storage.googleapis.com/93.0.4577.63/"
             "chromedriver_linux64.zip"
         )
         response.raise_for_status()
