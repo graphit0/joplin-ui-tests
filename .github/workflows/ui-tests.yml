@@ -1,6 +1,6 @@
 name: ui-tests
 
-on: [push]
+on: workflow_dispatch
 
 jobs:
   container:
